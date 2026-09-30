@@ -3,7 +3,8 @@
 import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
-import { INITIAL_EVENTS, getStoredEvents, EventItem } from "@/data/mockData";
+import { getStoredEvents } from "@/data/mockData";
+import type { EventItem } from "@/types";
 import { 
   Search, Calendar, MapPin, Tag, Users, ArrowRight, Sparkles, 
   Filter, SlidersHorizontal, Heart, ShieldCheck, Mail, Phone, 
